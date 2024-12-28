@@ -1,0 +1,250 @@
+﻿using Npgsql;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace derskayıt
+{
+    public partial class FormOgrenci : Form
+    {
+        public FormOgrenci()
+        {
+            InitializeComponent();
+        }
+
+        string connectionString = "Host=localhost;Username=postgres;Password=1234;Database=derskayit";
+        //bilgileri güncelleme işlemi için gerekli olan textboxlar ve label'ları gizleyen fonksiyon
+        void Gizle()
+        {
+            label1.Hide();
+            label2.Hide();
+            label3.Hide();
+            label4.Hide();
+            label5.Hide();
+            label6.Hide();
+            label7.Hide();
+            txtAd.Hide();
+            txtAdres.Hide();
+            txtdtarih.Hide();
+            txtEmail.Hide();
+            txtSifre.Hide();
+            txtSoyad.Hide();
+            txtTelefon.Hide();
+            button4.Hide();
+        }
+        //bilgileri güncelleme işlemi için gerekli olan textboxlar ve label'ları gösteren fonksiyon
+        void Göster()
+        {
+            label1.Show();
+            label2.Show();
+            label3.Show();
+            label4.Show();
+            label5.Show();
+            label6.Show();
+            label7.Show();
+            txtAd.Show();
+            txtAdres.Show();
+            txtdtarih.Show();
+            txtEmail.Show();
+            txtSifre.Show();
+            txtSoyad.Show();
+            txtTelefon.Show();
+            button4.Show();
+        }
+        //Öğrencinin aldığı dersleri listeleme
+        private void AldigimDersleriListele()
+        {
+            string kimlikNo = Giris.GirisYapanKimlikNo; // Giriş yapanın kullanıcı adı öğretim görevlisinin kimlik numarasıdır.
+
+            if (string.IsNullOrEmpty(kimlikNo))
+            {
+                MessageBox.Show("Kimlik numarası geçersiz.");
+                return;
+            }
+
+            string sql = @"SELECT d.""dersAdi"" AS ""Ders Adı"", d.""dersKodu"" AS ""Ders Kodu"", d.""dersDonemi"" AS ""Ders Dönemi""
+               FROM ders d
+               INNER JOIN ogrenci_ders od ON d.""dersKodu"" = od.dersKodu
+               WHERE od.""kimlikno"" = @kimlikNo";
+
+
+            using (NpgsqlConnection con = new NpgsqlConnection(connectionString))
+            using (NpgsqlCommand komut = new NpgsqlCommand(sql, con))
+            {
+                komut.Parameters.AddWithValue("@kimlikNo", kimlikNo);
+
+                try
+                {
+                    con.Open();
+                    NpgsqlDataAdapter da = new NpgsqlDataAdapter(komut);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
+                    dataGridView1.DataSource = dt; // Dersleri bir DataGridView'e dolduruyoruz.
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Hata: " + ex.Message);
+                }
+            }
+        }
+        //tablodan seçilen dersin öğretim görevlisinin bilgilerini listelemyen fonksiyon
+        void GorevliBilgileriniListele()
+        {
+            // DataGridView'deki seçili dersin dersKodu'nu alıyoruz.
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                // Seçilen satırdaki dersKodu'nu alıyoruz.
+                int dersKodu = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["Ders Kodu"].Value);
+
+                // Öğrencinin seçtiği dersle ilgili dersi veren öğretim görevlisinin bilgilerini listeleyecek SQL sorgusu
+                string sql = @"SELECT g.ad AS ""Ad"", g.soyad AS ""Soyad"", g.email AS ""Email""
+                       FROM ogretimgorevlisi g
+                       INNER JOIN gorevli_ders gd ON g.kimlikno = gd.kimlikno
+                       WHERE gd.dersKodu = @dersKodu";
+
+                // Veritabanı bağlantısı oluşturuluyor
+                using (NpgsqlConnection con = new NpgsqlConnection(connectionString))
+                using (NpgsqlCommand komut = new NpgsqlCommand(sql, con))
+                {
+                    komut.Parameters.AddWithValue("@dersKodu", dersKodu);
+
+                    try
+                    {
+                        con.Open();
+                        NpgsqlDataAdapter da = new NpgsqlDataAdapter(komut);
+                        DataTable dt = new DataTable();
+                        da.Fill(dt);
+
+                        // Dersi veren öğretim görevlisinin bilgilerini bir DataGridView'e dolduruyoruz.
+                        dataGridView1.DataSource = dt; // Assuming you have another DataGridView (dataGridView2) for displaying the instructor info
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Hata: " + ex.Message);
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Lütfen bir ders seçin.");
+            }
+        }
+        //giriş yapan kullanıcının bilgilerini güncelleyen fonksiyon
+        private void BilgileriGuncelle()
+        {
+            string kimlikNo = Giris.GirisYapanKimlikNo; // Giriş yapan öğretim görevlisinin kimlik numarası.
+            string yeniAd = txtAd.Text;
+            string yeniSoyad = txtSoyad.Text;
+            string yeniEmail = txtEmail.Text;
+            string yeniTelefon = txtTelefon.Text;
+
+            // Tarih formatını doğruluyoruz. Kullanıcıdan gelen tarih, DateTime türüne dönüştürülür.
+            DateTime yeniDogumTarihi;
+            if (!DateTime.TryParse(txtdtarih.Text, out yeniDogumTarihi))
+            {
+                MessageBox.Show("Geçerli bir tarih giriniz.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;  // Geçersiz tarih durumunda işlemi sonlandırıyoruz.
+            }
+
+            string yeniAdres = txtAdres.Text;
+            string yeniSifre = txtSifre.Text;
+
+            using (var conn = new NpgsqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+
+                    // Ogretimgorevlisi tablosunu güncelleyen sorgu
+                    string query1 = "UPDATE ogrenci " +
+                                    "SET ad = @ad, soyad = @soyad, email = @email, telefon = @telefon, dtarih = @dogumTarihi, adres = @adres " +
+                                    "WHERE kimlikno = @kimlikNo";
+
+                    using (var cmd1 = new NpgsqlCommand(query1, conn))
+                    {
+                        cmd1.Parameters.AddWithValue("@ad", yeniAd);
+                        cmd1.Parameters.AddWithValue("@soyad", yeniSoyad);
+                        cmd1.Parameters.AddWithValue("@email", yeniEmail);
+                        cmd1.Parameters.AddWithValue("@telefon", yeniTelefon);
+                        cmd1.Parameters.AddWithValue("@dogumTarihi", yeniDogumTarihi);  // DateTime parametre olarak gönderildi
+                        cmd1.Parameters.AddWithValue("@adres", yeniAdres);
+                        cmd1.Parameters.AddWithValue("@kimlikno", kimlikNo);
+
+                        int rowsAffected1 = cmd1.ExecuteNonQuery();
+                        if (rowsAffected1 > 0)
+                        {
+                            MessageBox.Show("Kişisel bilgiler başarıyla güncellendi.");
+                        }
+                        else
+                        {
+                            MessageBox.Show("Kişisel bilgi güncelleme işlemi başarısız.");
+                        }
+                    }
+
+                    // Giris tablosunu güncelleyen sorgu (sadece şifre)
+                    string query2 = "UPDATE giris " +
+                                    "SET sifre = @sifre " +
+                                    "WHERE kullaniciadi = @kimlikNo";
+
+                    using (var cmd2 = new NpgsqlCommand(query2, conn))
+                    {
+                        cmd2.Parameters.AddWithValue("@sifre", yeniSifre);
+                        cmd2.Parameters.AddWithValue("@kimlikNo", kimlikNo);
+
+                        int rowsAffected2 = cmd2.ExecuteNonQuery();
+                        if (rowsAffected2 > 0)
+                        {
+                            MessageBox.Show("Şifre başarıyla güncellendi.");
+                        }
+                        else
+                        {
+                            MessageBox.Show("Şifre güncelleme işlemi başarısız.");
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Hata oluştu: " + ex.Message);
+                }
+            }
+        }
+        //form ilk yüklendiğinde herşeyi gizler
+        private void FormOgrenci_Load(object sender, EventArgs e)
+        {
+            dataGridView1.Hide();
+            Gizle();
+        }
+        //aldığım dersler butonuna tıklandığında tabloyu gösterir ve aldığım dersleri listeler
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Gizle();
+            dataGridView1.Show();
+            AldigimDersleriListele();
+        }
+        //görevli bilgileri butonuna tıklandığında tabloyu gösterir ve görevli bilgilerini listeler
+        private void button2_Click(object sender, EventArgs e)
+        {   
+            Gizle();
+            GorevliBilgileriniListele();
+            dataGridView1.Show();
+        }
+        //bilgileri güncelleme butonuna tıklandığında textboxları ve label'ları gösterir , tabloyu gizler
+        private void button3_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Hide();
+            Göster();
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            BilgileriGuncelle();
+        }
+    }
+}

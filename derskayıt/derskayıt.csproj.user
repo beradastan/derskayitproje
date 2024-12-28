@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Dersekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DersiAlanOgrenciler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="derslistele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Dersİslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormOgrenci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormOgretimGorevlisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormYonetici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gorevliekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gorevlilistele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gorevlisil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gorevliİslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="kayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="kayitsil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Ogrencisil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Ogrenciekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Ogrencilistele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Ogrenciİslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
