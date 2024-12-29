@@ -39,17 +39,19 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(567, 420);
+            comboBox1.Location = new Point(496, 315);
+            comboBox1.Margin = new Padding(3, 2, 3, 2);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(125, 28);
+            comboBox1.Size = new Size(110, 23);
             comboBox1.TabIndex = 0;
             // 
             // button1
             // 
             button1.BackColor = Color.Silver;
-            button1.Location = new Point(766, 414);
+            button1.Location = new Point(670, 310);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(122, 38);
+            button1.Size = new Size(107, 28);
             button1.TabIndex = 1;
             button1.Text = "Listele";
             button1.UseVisualStyleBackColor = false;
@@ -60,44 +62,46 @@
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridView1.BackgroundColor = Color.Silver;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(-1, 24);
+            dataGridView1.Location = new Point(-1, 18);
+            dataGridView1.Margin = new Padding(3, 2, 3, 2);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(958, 384);
+            dataGridView1.Size = new Size(838, 288);
             dataGridView1.TabIndex = 2;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(437, 1);
+            label1.Location = new Point(382, 1);
             label1.Name = "label1";
-            label1.Size = new Size(50, 20);
+            label1.Size = new Size(38, 15);
             label1.TabIndex = 3;
             label1.Text = "label1";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(488, 423);
+            label2.Location = new Point(427, 317);
             label2.Name = "label2";
-            label2.Size = new Size(73, 20);
+            label2.Size = new Size(57, 15);
             label2.TabIndex = 4;
             label2.Text = "Ders Adı :";
             // 
             // DersiAlanOgrenciler
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.SlateGray;
-            ClientSize = new Size(958, 454);
+            ClientSize = new Size(838, 340);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(dataGridView1);
             Controls.Add(button1);
             Controls.Add(comboBox1);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "DersiAlanOgrenciler";
-            Text = "DersiAlanOgrenciler";
+            Text = "-";
             Load += DersiAlanOgrenciler_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);

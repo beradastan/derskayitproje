@@ -124,13 +124,14 @@
             // 
             // button4
             // 
+            button4.BackColor = Color.Silver;
             button4.Location = new Point(678, 420);
             button4.Margin = new Padding(3, 4, 3, 4);
             button4.Name = "button4";
             button4.Size = new Size(223, 77);
             button4.TabIndex = 27;
             button4.Text = "Güncelle";
-            button4.UseVisualStyleBackColor = true;
+            button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
             // 
             // txtTelefon
