@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|C:\\Users\\berat\\source\\repos\\derskay\u0131t\\ogrencilistele.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|c:\\users\\berat\\source\\repos\\derskay\u0131t\\kayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|solutionrelative:kayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|C:\\Users\\berat\\source\\repos\\derskay\u0131t\\kayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|solutionrelative:kayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|c:\\users\\berat\\source\\repos\\derskay\u0131t\\ogrencilistele.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|solutionrelative:ogrencilistele.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -23,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|solutionrelative:kayitsil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|C:\\Users\\berat\\source\\repos\\derskay\u0131t\\kayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|solutionrelative:kayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|C:\\Users\\berat\\source\\repos\\derskay\u0131t\\gorevlisil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|solutionrelative:gorevlisil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -43,15 +47,15 @@
       "RelativeMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|solutionrelative:gorevliekle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|c:\\users\\berat\\source\\repos\\derskay\u0131t\\giris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|C:\\Users\\berat\\source\\repos\\derskay\u0131t\\giris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|solutionrelative:giris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|c:\\users\\berat\\source\\repos\\derskay\u0131t\\formyonetici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|C:\\Users\\berat\\source\\repos\\derskay\u0131t\\formyonetici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|solutionrelative:formyonetici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|c:\\users\\berat\\source\\repos\\derskay\u0131t\\formogretimgorevlisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|C:\\Users\\berat\\source\\repos\\derskay\u0131t\\formogretimgorevlisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|solutionrelative:formogretimgorevlisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -59,7 +63,7 @@
       "RelativeMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|solutionrelative:derslistele.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|c:\\users\\berat\\source\\repos\\derskay\u0131t\\formogrenci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|C:\\Users\\berat\\source\\repos\\derskay\u0131t\\formogrenci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|solutionrelative:formogrenci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -67,7 +71,7 @@
       "RelativeMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|solutionrelative:ders\u0130slemleri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|c:\\users\\berat\\source\\repos\\derskay\u0131t\\dersialanogrenciler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|C:\\Users\\berat\\source\\repos\\derskay\u0131t\\dersialanogrenciler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|solutionrelative:dersialanogrenciler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -77,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|c:\\users\\berat\\source\\repos\\derskay\u0131t\\ogrenciekle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|solutionrelative:ogrenciekle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|c:\\users\\berat\\source\\repos\\derskay\u0131t\\kayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|solutionrelative:kayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA306BDD-2F7E-40E6-8C1F-1EDF964C887E}|derskay\u0131t.csproj|c:\\users\\berat\\source\\repos\\derskay\u0131t\\gorevliekle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,151 +102,139 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Giris.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\Giris.cs",
               "RelativeDocumentMoniker": "Giris.cs",
               "ToolTip": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\Giris.cs [Tasar\u0131m]",
               "RelativeToolTip": "Giris.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T12:36:07.288Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2024-12-29T12:36:07.288Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "FormYonetici.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\FormYonetici.cs",
               "RelativeDocumentMoniker": "FormYonetici.cs",
               "ToolTip": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\FormYonetici.cs [Tasar\u0131m]",
               "RelativeToolTip": "FormYonetici.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T12:36:00.978Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2024-12-29T12:36:00.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "FormOgretimGorevlisi.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\FormOgretimGorevlisi.cs",
               "RelativeDocumentMoniker": "FormOgretimGorevlisi.cs",
               "ToolTip": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\FormOgretimGorevlisi.cs [Tasar\u0131m]",
               "RelativeToolTip": "FormOgretimGorevlisi.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T12:34:16.515Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2024-12-29T12:34:16.515Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "FormOgrenci.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\FormOgrenci.cs",
               "RelativeDocumentMoniker": "FormOgrenci.cs",
               "ToolTip": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\FormOgrenci.cs [Tasar\u0131m]",
               "RelativeToolTip": "FormOgrenci.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T12:34:13.538Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2024-12-29T12:34:13.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "DersiAlanOgrenciler.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\DersiAlanOgrenciler.cs",
               "RelativeDocumentMoniker": "DersiAlanOgrenciler.cs",
               "ToolTip": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\DersiAlanOgrenciler.cs [Tasar\u0131m]",
               "RelativeToolTip": "DersiAlanOgrenciler.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T15:02:05.69Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2024-12-28T15:02:05.69Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Ders\u0130slemleri.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\Ders\u0130slemleri.cs",
               "RelativeDocumentMoniker": "Ders\u0130slemleri.cs",
               "ToolTip": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\Ders\u0130slemleri.cs [Tasar\u0131m]",
               "RelativeToolTip": "Ders\u0130slemleri.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T15:02:04.412Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2024-12-28T15:02:04.412Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "derslistele.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\derslistele.cs",
               "RelativeDocumentMoniker": "derslistele.cs",
               "ToolTip": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\derslistele.cs [Tasar\u0131m]",
               "RelativeToolTip": "derslistele.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T15:02:03.431Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2024-12-28T15:02:03.431Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Gorevlisil.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\Gorevlisil.cs",
               "RelativeDocumentMoniker": "Gorevlisil.cs",
               "ToolTip": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\Gorevlisil.cs [Tasar\u0131m]",
               "RelativeToolTip": "Gorevlisil.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T15:02:00.055Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2024-12-28T15:02:00.055Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Gorevlilistele.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\Gorevlilistele.cs",
               "RelativeDocumentMoniker": "Gorevlilistele.cs",
               "ToolTip": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\Gorevlilistele.cs [Tasar\u0131m]",
               "RelativeToolTip": "Gorevlilistele.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T15:01:58.792Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2024-12-28T15:01:58.792Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Gorevli\u0130slemleri.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\Gorevli\u0130slemleri.cs",
               "RelativeDocumentMoniker": "Gorevli\u0130slemleri.cs",
               "ToolTip": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\Gorevli\u0130slemleri.cs [Tasar\u0131m]",
               "RelativeToolTip": "Gorevli\u0130slemleri.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T15:01:57.57Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2024-12-28T15:01:57.57Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Ogrenci\u0130slemleri.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\Ogrenci\u0130slemleri.cs",
               "RelativeDocumentMoniker": "Ogrenci\u0130slemleri.cs",
               "ToolTip": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\Ogrenci\u0130slemleri.cs [Tasar\u0131m]",
               "RelativeToolTip": "Ogrenci\u0130slemleri.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T15:01:52.042Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2024-12-28T15:01:52.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "kayitsil.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\kayitsil.cs",
               "RelativeDocumentMoniker": "kayitsil.cs",
               "ToolTip": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\kayitsil.cs [Tasar\u0131m]",
               "RelativeToolTip": "kayitsil.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T15:01:34.927Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2024-12-28T15:01:34.927Z"
             },
             {
               "$type": "Document",
@@ -276,44 +264,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Dersekle.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\Dersekle.cs",
               "RelativeDocumentMoniker": "Dersekle.cs",
               "ToolTip": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\Dersekle.cs [Tasar\u0131m]",
               "RelativeToolTip": "Dersekle.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T07:27:52.42Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2024-12-25T07:27:52.42Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Gorevliekle.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\Gorevliekle.cs",
               "RelativeDocumentMoniker": "Gorevliekle.cs",
               "ToolTip": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\Gorevliekle.cs [Tasar\u0131m]",
               "RelativeToolTip": "Gorevliekle.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T07:27:43.064Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2024-12-25T07:27:43.064Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 0,
               "Title": "kayit.cs",
               "DocumentMoniker": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\kayit.cs",
               "RelativeDocumentMoniker": "kayit.cs",
               "ToolTip": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\kayit.cs",
               "RelativeToolTip": "kayit.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGwAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAiwDoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-25T07:27:05.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "kayit.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\kayit.cs",
               "RelativeDocumentMoniker": "kayit.cs",
@@ -325,15 +311,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Ogrencisil.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\Ogrencisil.cs",
               "RelativeDocumentMoniker": "Ogrencisil.cs",
               "ToolTip": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\Ogrencisil.cs [Tasar\u0131m]",
               "RelativeToolTip": "Ogrencisil.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T18:50:37.216Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2024-12-24T18:50:37.216Z"
             },
             {
               "$type": "Document",
@@ -350,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Ogrencilistele.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\Ogrencilistele.cs",
               "RelativeDocumentMoniker": "Ogrencilistele.cs",
@@ -362,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Ogrenciekle.cs",
               "DocumentMoniker": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\Ogrenciekle.cs",
               "RelativeDocumentMoniker": "Ogrenciekle.cs",
@@ -375,15 +360,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Ogrenciekle.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\Ogrenciekle.cs",
               "RelativeDocumentMoniker": "Ogrenciekle.cs",
               "ToolTip": "C:\\Users\\berat\\source\\repos\\derskay\u0131t\\Ogrenciekle.cs [Tasar\u0131m]",
               "RelativeToolTip": "Ogrenciekle.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T18:49:35.803Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2024-12-24T18:49:35.803Z"
             }
           ]
         }
